@@ -2,7 +2,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Demo
 
-Open [hash-chat-83f51.web.app](hash-chat-83f51.web.app) to view demo
+Open [hash-chat-83f51.web.app](https://hash-chat-83f51.web.app) to view demo
 
 
 
