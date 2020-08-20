@@ -1,0 +1,82 @@
+.prof_container {
+  height: 100vh;
+  /* background-color: khaki; */
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.prof_img {
+  margin-top: -15vh;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: solid 4px lavender;
+}
+
+.bg_holder {
+  height: 35vh;
+  width: 100%;
+  background-image: url("pro3.jpg");
+  object-fit: cover;
+}
+
+.pro_details {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  justify-content: space-around;
+  margin: 20px;
+}
+
+.pro_item {
+  display: flex;
+
+  height: 80px;
+  align-items: center;
+  background-color: #d5e9f8;
+  margin-bottom: 13px;
+  padding: 0 10px;
+  border-radius: 50px;
+  box-shadow: 0 1px 4px 0 rgb(164, 165, 165);
+}
+
+.item_det {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  flex: 1;
+  margin-left: 13px;
+}
+
+.pro_item .MuiSvgIcon-root {
+  padding: 10px;
+}
+
+.sub_header {
+  color: rgb(117, 118, 119);
+  font-size: 13px;
+}
+
+.cam_icon {
+  margin-top: -15px;
+  background-color: #5bb2f5;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.cam_icon .MuiSvgIcon-root {
+  color: white;
+  font-size: 20px;
+}
+
+.edit_icon {
+  cursor: pointer;
+}

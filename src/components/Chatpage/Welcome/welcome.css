@@ -1,0 +1,19 @@
+.wel_div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.3;
+  flex: 1;
+  /* padding-bottom: 100px; */
+  /* background-image: url("bg2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; */
+  background-color: #e2f0fa;
+}
+
+.wel_img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}

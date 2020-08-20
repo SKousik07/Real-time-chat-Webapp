@@ -1,0 +1,117 @@
+.chat_box {
+  flex: 1;
+  /* background-image: url("chatbg.jpg");
+  opacity: 0.5; */
+  position: relative;
+  height: 100vh;
+  overflow-y: scroll;
+}
+.chat_header {
+  height: 9vh;
+  background-color: rgb(255, 255, 255);
+  /* box-shadow: #a0cbec; */
+  box-shadow: 0 4px 8px 0 rgba(191, 223, 248, 0.5);
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  width: 76%;
+}
+
+.chat_avatar {
+  padding: 10px;
+}
+
+.header_name {
+  font-size: 18px;
+}
+.chat_area {
+  margin-top: 80px;
+  color: black;
+}
+
+.send_container {
+  height: 9vh;
+  background-color: rgb(255, 255, 255);
+  /* box-shadow: #a0cbec; */
+  box-shadow: 0 1px 8px 0 rgba(191, 223, 248, 1);
+  display: flex;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+
+  width: 76%;
+  /* border-top: solid 2px rgba(191, 223, 248, 1); */
+  justify-content: space-around;
+}
+
+.emoji_cont {
+  height: max-content;
+  background-color: #e1ecf5;
+  position: absolute;
+  bottom: 70px;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 0 5px;
+}
+
+.emoji {
+  font-size: 20px;
+  cursor: pointer;
+  margin: 1px;
+}
+.send_input {
+  width: 100%;
+  border-radius: 20px;
+  outline: 0;
+  padding: 0 13px;
+  line-height: 30px;
+  border: 2px solid #dbebf7;
+  margin-left: 6.5px;
+  background-color: #e1ecf5;
+  font-size: 14px;
+}
+
+.send_btn {
+  color: rgb(247, 57, 70);
+  flex: 1;
+}
+.icon_wrap {
+  margin-right: 20px;
+}
+
+.div_gap {
+  padding-bottom: 10vh;
+}
+
+.say_hi {
+  margin-top: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.say_hi div {
+  font-weight: bold;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  opacity: 0.6;
+}
+
+.say_img {
+  height: 30px;
+  width: 30px;
+  margin-left: 5px;
+}
+
+.viewLoading {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(255, 255, 255, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

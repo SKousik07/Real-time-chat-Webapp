@@ -1,0 +1,33 @@
+.user_card {
+  display: flex;
+  align-items: center;
+  /* height: 90px; */
+  cursor: pointer;
+}
+.user_avatar {
+  padding: 15px;
+}
+
+.user_details {
+  display: flex;
+  flex-direction: column;
+}
+
+.user_cardarea {
+  height: 90px;
+  margin-bottom: 1px;
+}
+
+.user_txt {
+  font-size: 14px;
+  margin-bottom: 2px;
+}
+
+.card_border {
+  border-bottom: 1px solid #c8d7e2;
+}
+
+.card_border_active {
+  /* border-left: 2px solid red;
+  background-color: white; */
+}

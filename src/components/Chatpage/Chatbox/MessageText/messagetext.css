@@ -1,0 +1,36 @@
+.msg_container {
+  background-color: #c8d7e2;
+  width: fit-content;
+  margin: 10px;
+  padding: 10px;
+  padding-left: 10px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.msg_user {
+  margin-left: auto;
+  background-color: rgb(255, 79, 90);
+  color: white;
+}
+
+.msg_container div {
+  padding: 0 10px;
+}
+
+.img_container {
+  display: flex;
+  margin: 10px;
+}
+
+.img_dis {
+  height: 200px;
+  width: 200px;
+  border-radius: 3px;
+}
+
+.img_user {
+  margin-left: auto;
+}
